@@ -54,3 +54,10 @@ nav .menu a{
     margin: 0px auto;
 }
 
+#hero {
+    height: 674px;
+    background-image: url('/assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+}
