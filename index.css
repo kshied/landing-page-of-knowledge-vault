@@ -81,7 +81,6 @@ nav .menu a{
     margin-bottom: 16px;
     align-items: center;
     justify-content: center;
-    
 }
 
 #hero .hero-btn-1 .badge-btn {
@@ -157,7 +156,7 @@ nav .menu a{
 }
 
 .cta-1 {
-    background-color: #30B868;
+    background-color: #469165;
     border-radius: 4px;
     font-size: 16px;
     color: #FFFFFF;
@@ -252,5 +251,72 @@ nav .menu a{
     font-size: 12px;
     color: #627382;
     text-align: center;
+}
+
+
+.knowledge-container {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    width: 1360px;
+
+}
+
+.knowledge-image {
+    width: 600px;
+    height: 600px;
+}
+.knowledge-pre-head {
+    width: 700px;
+    margin-top: -101.5px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #30B868;
+    font-weight: 500;
+}
+
+.knowledge-head {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+
+
+.knowledge-paragraph {
+    width: 700px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.knowledge-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
+}
+
+.knowledge-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.knowledge-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.knowledge-container {
+    border: solid rgba(39, 30, 30, 0.045);
+    gap: 50px;
+    text-align: left;
+    margin-bottom: 120px;
 }
 
